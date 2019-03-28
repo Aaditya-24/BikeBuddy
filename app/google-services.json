@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "806674697264",
+    "firebase_url": "https://bikebuddy-dace7.firebaseio.com",
+    "project_id": "bikebuddy-dace7",
+    "storage_bucket": "bikebuddy-dace7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806674697264:android:2f59fc0d160ef0af",
+        "android_client_info": {
+          "package_name": "com.example.bikebuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806674697264-l81su72b0eqfs935rmkgbm8jtij8eekp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bikebuddy",
+            "certificate_hash": "1aea4e0a1268606953e0838defe20da5ba31c255"
+          }
+        },
+        {
+          "client_id": "806674697264-87iokiqhoh6idons1e488bk9fq6fitav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLZf2I5ePY6k8IXlLEsQMCzX3c5ZWy1AE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806674697264-87iokiqhoh6idons1e488bk9fq6fitav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/im_background"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/BlackTint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/slideViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/dotsLayout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="650dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:onClick="AdminSide"
+            android:text="Admin" />
+
+        <Button
+            android:id="@+id/Registerjoin"
+            android:layout_width="185dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/dotsLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="120dp"
+            android:background="@color/common_google_signin_btn_text_dark_focused"
+            android:onClick="joinin"
+            android:text="JOIN NOW"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="185dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/dotsLayout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="120dp"
+            android:background="@color/common_google_signin_btn_text_dark_focused"
+            android:onClick="signin"
+            android:text="SIGN IN"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

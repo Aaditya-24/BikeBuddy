@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_explore"
+        android:icon="@drawable/baseline_whatshot_24"
+        android:title="@string/title_explore" />
+
+    <item
+        android:id="@+id/navigation_guide"
+        android:icon="@drawable/baseline_supervisor_account_24"
+        android:title="@string/title_guide" />
+
+    <item
+        android:id="@+id/navigation_trail"
+        android:icon="@drawable/bike_icon"
+        android:title="@string/title_trail"/>
+
+    <item
+        android:id="@+id/navigation_book"
+        android:icon="@drawable/baseline_motorcycle_24"
+        android:title="@string/title_book"/>
+
+    <item
+        android:id="@+id/navigation_home1"
+        android:icon="@drawable/baseline_sentiment_very_satisfied_24"
+        android:title="@string/title_home" />
+
+
+
+</menu>

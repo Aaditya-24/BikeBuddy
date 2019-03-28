@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="ColorTransparentWhite">#cccccc</color>
+    <color name="BlackTint">#80000000</color>
+    <color name="CARDS">#ffdbac</color>
+    
+    <color name="colorIcons">#FFFF0F</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorPrimaryLight">#C8E6C9</color>
+//For Displaying Inventory
+    <color name="bike_title">#4c4c4c</color>
+    <color name="viewBg">#f1f5f8</color>
+
+
+
+</resources>
